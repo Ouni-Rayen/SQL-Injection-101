@@ -25,7 +25,7 @@ services:
       DB_PASS: ctfpass
       DB_NAME: vault
       FLAG: "Securinets{h4sh_t4g_c0mm3nts_4r3_4_th1ng}"
-      SHOW_QUERY: "0"
+      SHOW_QUERY: "1"
     depends_on:
       db:
         condition: service_healthy
