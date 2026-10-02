@@ -5,7 +5,7 @@ from flask import Flask, render_template_string, request
 
 app = Flask(__name__)
 
-FLAG = os.environ.get("FLAG", "Securinets{fake_flag_for_local_testing}")
+FLAG = os.environ.get("FLAG", "Securinets{h4sh_t4g_c0mm3nts_4r3_4_th1ng}")
 SHOW_QUERY = os.environ.get("SHOW_QUERY", "1") == "1"  # set to 0 for a harder version
 
 # Players can't use the usual "-- " comment, so they have to find "#"
